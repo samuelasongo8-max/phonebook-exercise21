@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: fullstackopen-part3
+    runtime: node
+    rootDir: .
+    buildCommand: npm install
+    startCommand: npm start
